@@ -1,4 +1,4 @@
-from src.decorating.main import validate_types
+from decorating import validate_types
 import pytest
 
 @validate_types(str)
